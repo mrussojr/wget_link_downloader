@@ -52,6 +52,7 @@ set "filename=!filename:%%5F=_!"
 set "filename=!filename:%%2D=-!"
 set "filename=!filename:%%2E=.!"
 set "filename=!filename:%%27='!"
+set "filename=!filename:%%2c=,!"
 
 REM -- Actually get the file
 wget -N -c %search%
